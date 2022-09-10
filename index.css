@@ -1,0 +1,9 @@
+.heading {
+    color: darkblue;
+    font-size: 15px;
+}
+
+.heading:hover {
+    color: aqua;
+    font-size: 20px;
+}
