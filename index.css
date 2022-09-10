@@ -1,10 +1,14 @@
-.heading {
-    color: darkblue;
-    font-size: 15px;
-    transition: all 1s ease-in 1s;
+.box {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border: 1px solid black;
+    animation-name: grow;
+    animation-duration: 2s;
 }
 
-.heading:hover {
-    color: green;
-    font-size: 10px;
+@keyframes grow {
+    0% {width: 50px; height: 50px; background-color: red;}
+    50% {width: 100px; height: 50px; background-color: green;}
+    100% {width: 50px; height: 100px; background-color: blue;}
 }
